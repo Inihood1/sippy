@@ -1,5 +1,5 @@
 
-# 🛍️ Shop With Friends – Collaborative Cart Experience
+# 🛍️ Shop With Friends – Collaborative Cart Experience of sippy
 
 A Flutter feature that lets two users (a cart creator and a friend) join a shared shopping session, add items to a common cart, and complete together—all simulated with mock data and in-app routing.
 
@@ -47,8 +47,8 @@ README.md
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/shop-with-friends.git
-   cd shop-with-friends
+   git clone https://github.com/inihood1/sippy.git
+   cd sippy
    ```
 
 2. **Install dependencies**  
@@ -117,19 +117,9 @@ README.md
 
 - **In-Memory Only**: All sessions and carts exist in-memory—no persistence across restarts.  
 - **Single Friend**: Only one friend session is supported; multi-party would require extending `Session.participants`.  
-- **No Real Deep Linking**: We simulate deep links via manual input/dialog.  
+- **No Real Deep Linking**: I simulate deep links via manual input/dialog.  
 - **No Firebase**: Real-time sync is mocked via `Provider` updates.
 
 ---
 
-## 💡 Suggestions for Improvement
-
-- **Persistent Backend**: Hook up Firestore or your own API to persist sessions and carts.  
-- **Deep Linking**: Implement true deep links so tapping a link opens the app on mobile.  
-- **UI Polish**: Add animations (e.g., Hero transitions, Snackbar improvements) and theming.  
-- **Multi-User Sessions**: Support more than two participants by expanding session model and UI.  
-- **Error Handling**: Show dedicated modals for invalid session IDs or network failures.
-
----
-
-Thank you for reviewing! Feel free to explore the code and adapt any parts for your own projects.
+Thank you for reviewing!.
